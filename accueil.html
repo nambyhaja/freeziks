@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>FreeZiks</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
+
+		<link rel="shortcut icon" sizes="196x196" href="images/logo.png">
+
+		<!-- CSS distribution -->
+		<link rel="stylesheet" href="css/animate/animate.min.css" type="text/css" />
+  		<link rel="stylesheet" href="css/glyphicons/glyphicons.css" type="text/css" />
+	  	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" type="text/css" />
+	  	<link rel="stylesheet" href="css/material-design-icons/material-design-icons.css" type="text/css" />
+	  	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" type="text/css" />
+        
+	  	<!-- CSS perso -->
+	  	<link rel="stylesheet" href="css/styles/app.css" type="text/css" />
+  		<link rel="stylesheet" href="css/styles/style.css" type="text/css" />
+  		<link rel="stylesheet" href="css/styles/font.css" type="text/css" />
+        
+        <link rel="stylesheet" href="css/media/mediaelementplayer.min.css" type="text/css"/>
+        <link rel="stylesheet" href="css/media/mep.css" type="text/css"/>
+
+
+	</head>
+    <body>
+        <div class="app dk" id="app">
+            <!-- #Debut SIDE MENU -->
+            <div id="aside" class="app-aside modal fade nav-dropdown">
+                <div class="left navside grey dk" data-layout="column">
+                    <!-- Logo site web -->
+                    <div class="navbar no-radius">
+                        <a href="index.html" class="navbar-brand md">
+							<svg width="32" height="32" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink"> 
+								<circle cx="33" cy="20" r="3"  fill="#ffffff" class="brand-animate"/>      
+							  	<image xlink:href="images/logo.png" x="0" y="0" height="48" width="48" />    
+							</svg>       
+        					<!--<img src="images/logo.png" alt="." style="width:32px;height: 32px;">-->
+				        	<span class="hidden-folded inline">FreeZiks</span>
+				        </a>
+                    </div>
+                    <!-- /Logo site Web -->
+                    <!-- Menu -->
+                    <div data-flex class="hide-scroll">
+                        <nav class="scroll nav-stacked nav-active-primary">
+                            <ul class="nav" data-ui-nav>
+                                <!-- Menu Principal -->
+                                <li class="nav-header hidden-folded">
+                                    <span class="text-xs text-muted">Principal</span>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="nav-icon">
+                                            <i class="material-icons">
+                                              play_circle_outline
+                                            </i>
+                                        </span>
+                                        <span class="nav-text">Accueil</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="nav-icon">
+                                            <i class="material-icons">
+                                              person
+                                            </i>
+                                        </span>
+                                        <span class="nav-text">Profile</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="nav-icon">
+                                            <i class="material-icons">
+                                              sort
+                                            </i>
+                                        </span>
+                                        <span class="nav-text">Parcourir</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="nav-icon">
+                                            <i class="material-icons">
+                                              search
+                                            </i>
+                                        </span>
+                                        <span class="nav-text">Rechercher</span>
+                                    </a>
+                                </li>
+                                <!-- /Menu Principal -->
+                                <!-- Menu Collection -->
+                                <li class="nav-header hidden-folded">
+                                    <span class="text-xs text-muted">Votre collection</span>
+                                </li>
+                                <li>
+                                    <a href="profile.html#tracks">
+                                        <span class="nav-label">
+                                            <b class="label">8</b>
+                                        </span>
+                                        <span class="nav-icon">
+                                            <i class="material-icons">
+                                                list
+                                            </i>
+                                        </span>
+                                        <span class="nav-text">Ziks</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="nav-icon">
+                                            <i class="material-icons">
+                                              queue_music
+                                            </i>
+                                        </span>
+                                        <span class="nav-text">Playlist</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="nav-icon">
+                                            <i class="material-icons">
+                                              favorite
+                                            </i>
+                                        </span>
+                                        <span class="nav-text">Favoris</span>
+                                    </a>
+                                </li>
+                                <!-- /Menu Collection -->
+                                <!-- Menu Deconnexion -->
+                                <li class="nav-header hidden-folded">
+                                    <span class="text-xs text-muted">Deconnexion</span>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="nav-icon">
+                                            <i class="material-icons">
+                                              exit_to_app
+                                            </i>
+                                        </span>
+                                        <span class="nav-text">Deconnexion</span>
+                                    </a>
+                                </li>
+                                <!-- /Menu Deconnexion -->
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- /Menu -->
+                    
+                </div>
+            </div>
+            <!-- #Fin SIDE MENU -->
+            
+            <!-- #Debut CONTENU -->
+                <!-- Responsive Menu -->
+            <div id="content" class="app-content white bg box-shadow-z2" role="main">
+                <div class="app-header hidden-lg-up white lt box-shadow-z1">
+                    <!-- Logo su Site WEB -->
+                    <div class="navbar">
+                        <a href="index.html" class="navbar-brand md">
+							<svg width="32" height="32" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink"> 
+								<circle cx="33" cy="20" r="3"  fill="#ffffff" class="brand-animate"/>      
+							  	<image xlink:href="images/logo.png" x="0" y="0" height="48" width="48" />    
+							</svg>       
+        					<!--<img src="images/logo.png" alt="." style="width:32px;height: 32px;">-->
+				        	<span class="hidden-folded inline">FreeZiks</span>
+				        </a>
+                        <!-- Le Menu qui apparait en version mobile -->
+                        <ul class="nav navbar-nav pull-right">
+                            <li class="nav-item">
+                                <a data-toggle="modal" data-target="#aside" class="nav-link">
+                                    <i class="material-icons">menu</i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /Logo su Site WEB -->     
+                </div>
+                <!-- Musique Player -->
+                <div class="app-footer app-player grey bg">
+                    <div class="playlist" style="width:100%"></div>
+                </div>
+                <!-- /Musique Player -->
+                
+                <!-- Accueil -->
+                <div class="app-body" id="view">
+                    <div class="page-content">
+                        <div class="padding p-b-0">
+                            <div class="page-title m-b">
+                                <h1 class="inline m-a-0">Nouveauté</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Accueil -->
+            </div>
+            
+            <!-- #Fin CONTENU -->
+        </div>
+        
+        <!-- JS scripts -->
+		<script src="js/jquery/dist/jquery.js"></script>
+		<script src="js/tether/dist/js/tether.min.js"></script>
+  		<script src="js/bootstrap/dist/js/bootstrap.js"></script>	
+		<script src="js/PACE/pace.min.js"></script>
+        
+        <script src="js/media/mediaelement-and-player.min.js"></script>
+        <script src="js/media/mep.js"></script>
+        <script src="js/media/player.js"></script>
+    </body>
+</html>
