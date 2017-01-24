@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>FreeZiks</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
+
+        <link rel="shortcut icon" sizes="196x196" href="images/logo.png">
+
+        <!-- style -->
+        <link rel="stylesheet" href="css/animate.css/animate.min.css" type="text/css" />
+        <link rel="stylesheet" href="css/glyphicons/glyphicons.css" type="text/css" />
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" type="text/css" />
+        <link rel="stylesheet" href="css/material-design-icons/material-design-icons.css" type="text/css" />
+        <link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+
+        <!-- build:css css/styles/app.min.css -->
+        <link rel="stylesheet" href="css/styles/app.css" type="text/css" />
+        <link rel="stylesheet" href="css/styles/style.css" type="text/css" />
+        <link rel="stylesheet" href="css/styles/font.css" type="text/css" />
+
+        <link rel="stylesheet" href="libs/owl.carousel/dist/assets/owl.carousel.min.css" type="text/css" />
+        <link rel="stylesheet" href="libs/owl.carousel/dist/assets/owl.theme.css" type="text/css" />
+        <link rel="stylesheet" href="libs/mediaelement/build/mediaelementplayer.min.css" type="text/css" />
+        <link rel="stylesheet" href="libs/mediaelement/build/mep.css" type="text/css" />
+
+
+	</head>
+    <body>
+                <div class="app dk" id="app">
+            <!-- #Debut SIDE MENU -->
+            <div id="aside" class="app-aside modal fade nav-dropdown">
+                <div class="left navside grey dk" data-layout="column">
+                    <!-- Logo site web -->
+                    <div class="navbar no-radius">
+                        <a href="index.html" class="navbar-brand md">
+                            <svg width="32" height="32" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink"> 
+                                <circle cx="33" cy="20" r="3"  fill="#ffffff" class="brand-animate"/>      
+                                <image xlink:href="images/logo.png" x="0" y="0" height="48" width="48" />    
+                            </svg>       
+                            <!--<img src="images/logo.png" alt="." style="width:32px;height: 32px;">-->
+                            <span class="hidden-folded inline">FreeZiks</span>
+                        </a>
+                    </div>
+                    <!-- /Logo site Web -->
+                    <!-- Menu -->
+                    <div data-flex class="hide-scroll">
+                        <nav class="scroll nav-stacked nav-active-primary">
+                            <ul class="nav" data-ui-nav>
+                                <!-- Menu Principal -->
+                                <li class="nav-header hidden-folded">
+                                    <span class="text-xs text-muted">Principal</span>
+                                </li>
+                                <li>
+                                    <a href="accueil.html">
+                                        <span class="nav-icon">
+                                            <i class="material-icons">
+                                              play_circle_outline
+                                            </i>
+                                        </span>
+                                        <span class="nav-text">Accueil</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="profile.html">
+                                        <span class="nav-icon">
+                                            <i class="material-icons">
+                                              person
+                                            </i>
+                                        </span>
+                                        <span class="nav-text">Profile</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="parcourir.html">
+                                        <span class="nav-icon">
+                                            <i class="material-icons">
+                                              sort
+                                            </i>
+                                        </span>
+                                        <span class="nav-text">Parcourir</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="rechercher.html">
+                                        <span class="nav-icon">
+                                            <i class="material-icons">
+                                              search
+                                            </i>
+                                        </span>
+                                        <span class="nav-text">Rechercher</span>
+                                    </a>
+                                </li>
+                                <!-- /Menu Principal -->
+                                <!-- Menu Collection -->
+                                <li class="nav-header hidden-folded">
+                                    <span class="text-xs text-muted">Votre collection</span>
+                                </li>
+                                <li>
+                                    <a href="ziks.html">
+                                        <span class="nav-label">
+                                            <b class="label">8</b>
+                                        </span>
+                                        <span class="nav-icon">
+                                            <i class="material-icons">
+                                                list
+                                            </i>
+                                        </span>
+                                        <span class="nav-text">Ziks</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="playlist.html">
+                                        <span class="nav-icon">
+                                            <i class="material-icons">
+                                              queue_music
+                                            </i>
+                                        </span>
+                                        <span class="nav-text">Playlist</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="favoris.html">
+                                        <span class="nav-icon">
+                                            <i class="material-icons">
+                                              favorite
+                                            </i>
+                                        </span>
+                                        <span class="nav-text">Favoris</span>
+                                    </a>
+                                </li>
+                                <!-- /Menu Collection -->
+                                <!-- Menu Deconnexion -->
+                                <li class="nav-header hidden-folded">
+                                    <span class="text-xs text-muted">Deconnexion</span>
+                                </li>
+                                <li>
+                                    <a href="index.html">
+                                        <span class="nav-icon">
+                                            <i class="material-icons">
+                                              exit_to_app
+                                            </i>
+                                        </span>
+                                        <span class="nav-text">Deconnexion</span>
+                                    </a>
+                                </li>
+                                <!-- /Menu Deconnexion -->
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- /Menu -->
+                    
+                </div>
+            </div>
+            <!-- #Fin SIDE MENU -->
+            
+            <!-- #Debut CONTENU -->
+                <!-- Responsive Menu -->
+            <div id="content" class="app-content white bg box-shadow-z2" role="main">
+                <div class="app-header hidden-lg-up white lt box-shadow-z1">
+                    <!-- Logo su Site WEB -->
+                    <div class="navbar">
+                        <a href="index.html" class="navbar-brand md">
+                            <svg width="32" height="32" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink"> 
+                                <circle cx="33" cy="20" r="3"  fill="#ffffff" class="brand-animate"/>      
+                                <image xlink:href="images/logo.png" x="0" y="0" height="48" width="48" />    
+                            </svg>       
+                            <!--<img src="images/logo.png" alt="." style="width:32px;height: 32px;">-->
+                            <span class="hidden-folded inline">FreeZiks</span>
+                        </a>
+                        <!-- Le Menu qui apparait en version mobile -->
+                        <ul class="nav navbar-nav pull-right">
+                            <li class="nav-item">
+                                <a data-toggle="modal" data-target="#aside" class="nav-link">
+                                    <i class="material-icons">menu</i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /Logo su Site WEB -->     
+                </div>
+                <!-- Musique Player -->
+                <div class="app-footer app-player grey bg">
+                    <div class="playlist" style="width:100%"></div>
+                </div>
+                <!-- /Musique Player -->
+                
+                <!-- Profile -->
+                <div class="app-body" id="view">
+                    <div class="page-bg" data-stellar-ratio="2" style="background-image: url('images/a3.jpg');"></div>
+                    <div class="page-content">
+                        <div class="padding b-b">
+                            <div class="row-col">
+                                <div class="col-sm w w-auto-xs m-b">
+                                    <div class="item w rounded">
+                                        <div class="item-media">
+                                            <div class="item-media-content" style="background-image: url('images/a3.jpg');"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="p-l-md no-padding-xs">
+                                        <h1 class="page-title">
+                                          <span class="h1 _800">Michael Ratefinjanahary</span>
+                                        </h1>
+                                        <p class="item-desc text-ellipsis text-muted" data-ui-toggle-class="text-ellipsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quamquam tu hanc copiosiorem etiam soles dicere. Nihil illinc huc pervenit. Verum hoc idem saepe faciamus. Quid ad utilitatem tantae pecuniae? Utram tandem linguam nescio? Sed hoc sane concedamus.</p>
+                                        <div class="item-action m-b">
+                                            <a href="#" class="btn btn-sm rounded primary">Upload Zik</a>
+                                            <a href="#" class="btn btn-sm rounded blue">Nouveau playlist</a>
+                                            <a href="#" class="btn btn-sm rounded white">Editer Profile</a>
+                                        </div>
+                                        <div class="block clearfix m-b">
+                                            <span>9</span> <span class="text-muted">Playlists</span>, <span>100</span> <span class="text-muted">Ziks</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="row-col">
+                        <div class="col-lg-9 b-r no-border-md">
+                            <div class="padding p-y-0 m-b-md">
+                                <!-- Tabs -->
+                                <div class="nav-active-border b-primary bottom m-b-md m-t">
+                                    <ul class="nav l-h-2x" data-ui-jp="taburl">
+                                        <li class="nav-item m-r inline">
+                                            <a class="nav-link active" href="#" data-toggle="tab" data-target="#ziks">Ziks</a>
+                                        </li>
+                                        <li class="nav-item m-r inline">
+                                            <a class="nav-link" href="#" data-toggle="tab" data-target="#playlist">Playlists</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="ziks">
+                                        <div class="row item-list item-list-by m-b">
+                                            <!-- A boucler -->
+                                            <div class="col-xs-12">
+                                                <div class="item r" data-id="item-10" data-src="http://api.soundcloud.com/tracks/237514750/stream?client_id=a10d44d431ad52868f1bce6d36f5234c">
+                                                    <div class="item-media ">
+                                                        <a href="#" class="item-media-content" style="background-image: url('images/b9.jpg');"></a>
+                                                        <div class="item-overlay center">
+                                                            <button  class="btn-playpause">Play</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-info">
+                                                        <div class="item-overlay bottom text-right">
+                                                            <a href="#" class="btn-favorite"><i class="fa fa-heart-o"></i></a>
+                                                            <a href="#" class="btn-more" data-toggle="dropdown"><i class="fa fa-ellipsis-h"></i></a>
+                                                            <div class="dropdown-menu pull-right black lt"></div>
+                                                        </div>
+                                                        <div class="item-title text-ellipsis">
+                                                            <a href="#">The Open Road</a>
+                                                        </div>
+                                                        <div class="item-author text-sm text-ellipsis hide">
+                                                            <a href="artist.detail.html" class="text-muted">Postiljonen</a>
+                                                        </div>
+                                                        <div class="item-meta text-sm text-muted">
+                                                            <span class="item-meta-category"><a href="browse.html" class="label">Soul</a></span>
+                                                            <span class="item-meta-date text-xs">02.04.2016</span>
+                                                        </div>
+              
+                                                        <div class="item-except visible-list text-sm text-muted h-2x m-t-sm">
+                                                            Litatem tantae pecuniae? Utram tandem linguam nescio? Sed hoc sane concedamus.
+                                                        </div>
+              
+                                                        <div class="item-action visible-list m-t-sm">
+                                                            <a href="#" class="btn btn-xs white">Modifier</a>
+                                                            <a href="#" class="btn btn-xs white" data-toggle="modal" data-target="#delete-modal">Supprimer</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="btn btn-sm white rounded">Plus</a>
+                                        </div>
+                                    </div>
+                                    <!-- Playlist -->
+                                    <div class="tab-pane" id="playlist">
+
+                                        <div class="row item-list item-list-by m-b">
+
+                                            <!-- A boucler -->
+                                            <div class="col-xs-12">
+                                                <div class="item r" data-id="item-10" data-src="http://api.soundcloud.com/tracks/237514750/stream?client_id=a10d44d431ad52868f1bce6d36f5234c">
+                                                    <div class="item-media ">
+                                                        <a href="#" class="item-media-content" style="background-image: url('images/b9.jpg');"></a>
+                                                        <div class="item-overlay center">
+                                                            <button  class="btn-playpause">Play</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-info">
+                                                       
+                                                        <div class="item-title text-ellipsis">
+                                                            <a href="#">My playlist</a>
+                                                        </div>
+                                                        <div class="item-author text-sm text-ellipsis hide">
+                                                            <a href="artist.detail.html" class="text-muted">Postiljonen</a>
+                                                        </div>
+                                                        <div class="item-meta text-sm text-muted">
+                                                            <span class="item-meta-stats text-xs ">
+                                                                <i class="fa fa-play text-muted"></i> 30 
+                                                                <i class="fa fa-heart m-l-sm text-muted"></i> 10
+                                                            </span>
+                                                        </div>
+              
+                                                        <div class="item-except visible-list text-sm text-muted h-2x m-t-sm">
+                                                            Zik1-Zik2-Zik3.
+                                                        </div>
+              
+                                                        <div class="item-action visible-list m-t-sm">
+                                                            <a href="#" class="btn btn-xs white">Modifier</a>
+                                                            <a href="#" class="btn btn-xs white" data-toggle="modal" data-target="#delete-modal">Supprimer</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="btn btn-sm white rounded">Plus</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <!-- /Profile -->
+            </div>
+            
+            <!-- #Fin CONTENU -->
+        </div>
+        
+        <!-- JS scripts -->
+        <script src="libs/jquery/dist/jquery.js"></script>
+        <!-- Bootstrap -->
+        <script src="libs/tether/dist/js/tether.min.js"></script>
+        <script src="libs/bootstrap/dist/js/bootstrap.js"></script>
+        <!-- core -->
+        <script src="libs/jQuery-Storage-API/jquery.storageapi.min.js"></script>
+        <script src="libs/jquery.stellar/jquery.stellar.min.js"></script>
+        <script src="libs/owl.carousel/dist/owl.carousel.min.js"></script>
+        <script src="libs/jscroll/jquery.jscroll.min.js"></script>
+        <script src="libs/PACE/pace.min.js"></script>
+        <script src="libs/jquery-pjax/jquery.pjax.js"></script>
+
+        <script src="libs/mediaelement/build/mediaelement-and-player.min.js"></script>
+        <script src="libs/mediaelement/build/mep.js"></script>
+        <script src="scripts/player.js"></script>
+        
+        <script src="scripts/ui-nav.js"></script>
+        <script src="scripts/site.js"></script>
+    </body>
+</html>
